@@ -1,0 +1,19 @@
+# Keil build artifacts
+MDK-ARM/**/*.o
+MDK-ARM/**/*.d
+MDK-ARM/**/*.crf
+MDK-ARM/**/*.dep
+MDK-ARM/**/*.axf
+MDK-ARM/**/*.hex
+MDK-ARM/**/*.htm
+MDK-ARM/**/*.lnp
+MDK-ARM/**/*.lst
+MDK-ARM/**/*.map
+MDK-ARM/**/*.sct
+MDK-ARM/**/*.scvd
+MDK-ARM/**/*.uvguix.*
+
+# IDE
+*.swp
+*.bak
+.DS_Store
