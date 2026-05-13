@@ -31,7 +31,7 @@
 #define V_SCALE         (2000.0f / FFT_SIZE)  // Goertzel 归一化: raw/(N/2)*1000
 
 // 信号源选择: 1 = ADC 采样（需硬件）, 0 = 软件生成测试信号
-#define USE_ADC         0
+#define USE_ADC         1
 
 extern ADC_HandleTypeDef hadc1;
 extern DMA_HandleTypeDef hdma_adc1;
