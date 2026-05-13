@@ -96,6 +96,7 @@ int main(void) {
     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, GPIO_PIN_RESET);  // on
 
 #if USE_ADC
+    HAL_ADCEx_Calibration_Start(&hadc1);
     HAL_ADC_Start_DMA(&hadc1, (uint32_t *)adc_dma, FFT_SIZE);
     HAL_TIM_Base_Start(&htim3);
 #endif
